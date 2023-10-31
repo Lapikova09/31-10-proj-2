@@ -1,0 +1,166 @@
+.form-cont{
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 160px;
+    margin-bottom: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+.rect{
+    width: 24px;
+    height: 2px;
+    background-color: #000;
+    margin-top: 5px;
+    margin-right: 8px;
+}
+.rect-cont{
+    display: flex;
+    margin-bottom: 16px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    font-family: Clash Display;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.contact-text{
+    font-family: Clash Display;
+font-size: 112px;
+font-weight: 600;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+.big-input { 
+    height: 200px; 
+    resize: none; 
+  } 
+   
+  .input { 
+    border: 2px solid #000; 
+    font-size: 13px; 
+    font-weight: 500; 
+    letter-spacing: 1px; 
+    width: 100%; 
+    color: #000000; 
+    padding: 20px 15px; 
+  } 
+   
+  .input-label { 
+    position: absolute; 
+    top: 25%; 
+    left: 1rem; 
+    border: 5px solid transparent; 
+    pointer-events: none; 
+   
+    background-color: #fff; 
+    transition: top 0.1s ease-in-out, scale 0.1s ease-in-out; 
+  } 
+   
+  .input:focus ~ .input-label, 
+  .input:not(:placeholder-shown) ~ .input-label { 
+    top: 0; 
+    transform: translateY(-50%) scale(0.85); 
+  } 
+   
+  .input::placeholder { 
+    color: transparent; 
+  } 
+   
+  .input:focus { 
+    color: #212529; 
+    background-color: #fff; 
+    border-color: #bdbdbd; 
+    outline: 0; 
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25); 
+  } 
+   
+  .input-wrapper { 
+    position: relative; 
+  } 
+   
+  .form-wrapper { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 32px; 
+    width: 550px; 
+    margin-right: 84px; 
+    font-family: Clash Display;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  } 
+   
+  .contact { 
+    font-size: 13px; 
+    font-weight: 500; 
+    text-transform: uppercase; 
+  } 
+   
+  .contact-wrapper { 
+    margin-top: 160px; 
+  } 
+   
+.button2{
+    display: flex;
+    justify-content: left;
+}
+
+.finn2{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 50px;
+}
+.finn2 img{
+    margin-right: 16px;
+}
+.brands2{
+    width: 752px;
+    font-family: Clash Display;
+    font-size: 80px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.green-cont{
+    background-color:  #D2F65A;
+    width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.media{
+    font-family: Clash Display;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 1px;
+    width: 1372px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.media-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+.media-list{
+    display: flex;
+    gap: 32px;
+    font-family: Clash Display;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.media-list li{
+    display: flex;
+}

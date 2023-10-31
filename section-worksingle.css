@@ -1,0 +1,49 @@
+.qnt1{
+    font-family: Clash Display;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%; 
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.place{
+    height: 16px;
+}
+.pagination{
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+.list-6{
+    display: flex;
+    gap: 64px;
+
+}
+.goback{
+    width: 1170px;
+    align-items: center;
+}
+.goback img{
+    padding-left: 550px;
+}
+.list-6 li{
+    display: flex;
+}
+.list-6 li p{
+    margin-left: 16px;
+}
+.grey{
+    color: var(--text-muted, rgba(25, 25, 25, 0.70));
+    font-family: Clash Display;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.black{
+    font-family: Clash Display;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 167px;
+}

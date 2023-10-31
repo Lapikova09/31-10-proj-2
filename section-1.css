@@ -1,0 +1,129 @@
+.brand{
+    font-family: Clash Display;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 120%; 
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.green{
+    margin-top: 32px;
+    background: var(--background-primary, #D2F65A);
+    align-items: center;
+    font-family: Clash Display;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+.green p{
+    padding: 16px 0px;
+    flex-wrap: wrap;
+    gap: 10px;
+    white-space: nowrap;
+    animation: text 10s infinite linear;
+    padding-left: 100%;
+}
+@keyframes text{
+    0%{
+        transform: translate(-100%,0);
+    }
+
+    100%{
+        transform: translate(-200%,0);
+    }
+}
+.clients{
+    margin-top: 96px;
+}
+.list-3{
+    display: flex;
+    justify-content: space-between;
+    gap: 96px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+.list-3 li{
+    border-top: 2px solid black;
+    width: 328px;
+    height: 127px;
+}
+.client{
+    font-family: Clash Display;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 100%; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.qnt{
+    font-family: Clash Display;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 12px;
+}
+.list-3 span{
+    color:var(--background-primary, #D2F65A);
+}
+.logo{
+    margin-top: 128px;
+}
+.logocont{
+    display: flex;
+    width: 1600px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+.bord{
+    width: 24px;
+    height: 2px;
+    background-color: black;
+    margin-top: 5px;
+}
+.myclients{
+    margin-left: 8px;
+}
+.clientcont{
+    display: flex;
+    width: 355px;
+    justify-content:left;
+    font-family: Clash Display;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 100%; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.list-4{
+    margin-left: 64px;
+    margin-right: 160px;
+    display: flex;
+    width: 1181px;
+    justify-content: space-between;
+}
+.badge{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: #D2F65A;
+    position:absolute;
+    top: 302px;
+    right: 33px;
+    animation: spin 10s linear 1s infinite;
+}
+.circle{
+    position: relative;
+}
+@keyframes spin{
+    from{
+        transform:rotate(0deg)
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

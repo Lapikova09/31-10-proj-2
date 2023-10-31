@@ -1,0 +1,22 @@
+h1{
+    font-family: Clash Display;
+    font-size: 112px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 64px;
+    margin-bottom: 96px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.text3{
+    margin-left: 400px;
+ }
+ .text4{
+    margin-left: 430px;
+ }
+ .text-wrapper1{
+    display: flex;
+    margin-bottom: 48px;
+  }
